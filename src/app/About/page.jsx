@@ -1,8 +1,11 @@
 import React from 'react'
-import pic from ''
+import pic from './images/'
 
 export default function page() {
   return (
-    <div>About page</div>
+    <div>
+    <h2>About page</h2>
+    <Image src={pic} alt="students learning" />
+    </div>
   )
 }
