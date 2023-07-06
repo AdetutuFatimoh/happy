@@ -11,10 +11,11 @@ const slow = Outfit({
     description: 'Understanding the principles of next',
   }
 
-export default function layout({Children}) {
+export default function layout({children}) {
   return (
     <div className={slow.className}>
-        <div>{Children}
+        <div>
+          {children}
         <Courses/>
         </div>
     </div>
